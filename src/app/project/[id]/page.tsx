@@ -8,13 +8,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function ProjectInfoPage() {
-  const [project, setProject] = useState<Project>({
-    id: "",
-    title: "",
-    description: "",
-    goal: 0,
-    currency: "",
-  });
+  const [project, setProject] = useState<Project | null>(null);
   const { id } = useParams();
 
   const [fetchProject, loading, error] = useFetching(async () => {
@@ -25,15 +19,16 @@ export default function ProjectInfoPage() {
 
   useEffect(() => {
     fetchProject();
-  }, []);
+  }, [id]);
 
-  if (loading) {
+  if (loading || project === null) {
     return <Loading />;
   }
 
   if (error) {
     return <div>{error}</div>;
   }
+
   return (
     <Container
       sx={{
