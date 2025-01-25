@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "title": "EcoTech",
+    "description": "A project to develop eco-friendly tech solutions.",
+    "goal": 500000,
+    "currency": "USDT"
+  },
+  {
+    "id": "2",
+    "title": "HealthMate",
+    "description": "A health tech startup focusing on remote patient monitoring.",
+    "goal": 300000,
+    "currency": "ETH"
+  },
+  {
+    "id": "3",
+    "title": "SmartHomes",
+    "description": "Smart home automation solutions for a modern living.",
+    "goal": 700000,
+    "currency": "BTC"
+  },
+  {
+    "id": "4",
+    "title": "EduNext",
+    "description": "A platform for online education and personalized learning.",
+    "goal": 200000,
+    "currency": "USDT"
+  },
+  {
+    "id": "5",
+    "title": "GreenPlanet",
+    "description": "A renewable energy project aimed at reducing carbon emissions.",
+    "goal": 1000000,
+    "currency": "ETH"
+  }
+]
