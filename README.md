@@ -8,4 +8,3 @@
 
 Откройте [http://localhost:3000](http://localhost:3000) в браузере для просмотра результата.
 
-Ссылка на деплой: [https://launchpad-x-jet.vercel.app/](https://launchpad-x-jet.vercel.app/)
